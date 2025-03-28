@@ -7,12 +7,14 @@
 		<meta name="author" content="Daniele Silveira">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<title>Meu Perfil</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+
 	</head>
 	<body>
 		<!-- Cabeçalho da Página (header) -->
 		<header>
 			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
+			<div id="header_content" class="flex">
 				<!-- Titulo do Cabeçalho -->
 				<div id="titulo">
 					<!-- Seu nome -->
@@ -41,15 +43,15 @@
 		<main>
 			
 			<!-- Seção Formulário de Contato e Redes Sociais -->
-			<section id="contact">
+			<section id="contact" class="flex">
 				
 				<!-- Seção do Formulário-->
-				<form action="#" method="submit">
+				<form action="#" method="submit" id="formulario">
 					<label for="nome">Nome: </label>
 					<input
 						id="nome"
 						type="text"
-						name="name"
+						name="nome"
 						placeholder="Digite seu nome"
 						required
 					/>
@@ -88,7 +90,7 @@
 				</form>
 
 				<!-- Seção do Google Maps -->
-				<article id="mapa">
+				<article id="mapa" >
 
 					<div id="endereco">
 						<p>Tatuapé</p>
@@ -117,7 +119,7 @@
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer class="flex">
 			<!-- Seção de Contato - Redes Sociais -->
 			<section id="redes_sociais">
 				<a href="https://www.linkedin.com/in/daniele-napoleao/" target="_blank">
