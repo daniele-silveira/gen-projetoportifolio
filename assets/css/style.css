@@ -6,7 +6,7 @@
     text-decoration: none;
     outline: none;
     font-weight: 400;
-    font-family: Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 :root {
@@ -119,12 +119,11 @@ p{
 
 .img_profile{
     width: 200px;
-    
 }
-
-img {
+img 
+{
     border-radius: 50%;
-  }
+}
  
 /* Estilização da Seção Video */
 
@@ -203,7 +202,7 @@ form input,
 textarea {
     margin: 0.5rem 0 1rem;
     padding: 0.5rem;
-    border-radius: 0.5rem;
+    border-radius: 1.25rem;
     border: none;
     width: 100%;
     font-size: 1rem;

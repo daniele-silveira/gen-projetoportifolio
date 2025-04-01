@@ -2,13 +2,18 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Projeto Portfólio Generation Brasil">
+		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Daniele Silveira">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
-		<title>Meu Perfil</title>
-		<link rel="stylesheet" href="assets/css/style.css">
+		
+		<link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
 
+		<!-- Link para a Folha de Estilo da Página - CSS -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<title>Meu Perfil</title>
 	</head>
 	<body>
 		<!-- Cabeçalho da Página (header) -->
@@ -18,7 +23,7 @@
 				<!-- Titulo do Cabeçalho -->
 				<div id="titulo">
 					<!-- Seu nome -->
-					<h1>Contato</h1>
+					<h1>Generation Brasil</h1>
 				</div>
 
 				<!-- Conteudo do Menu da Página (header) -->
@@ -28,10 +33,10 @@
 						<!-- Marcadores não ordenados + links -->
 						<ul id="menu">
 							<li>
-								<a href="index.html"> Home </a>
+								<a href="index.html">Home</a>
 							</li>
 							<li>
-								<a href="contato.html"> Contato </a>
+								<a href="contato.html">Contato</a>
 							</li>
 						</ul>
 					</nav>
@@ -41,29 +46,24 @@
 
 		<!-- Seção Principal da Página (main) -->
 		<main>
-			
-			<!-- Seção Formulário de Contato e Redes Sociais -->
-			<section id="contact" class="flex">
-				
-				<!-- Seção do Formulário-->
+			<div id="contact" class="flex">
+				<!-- Seção Formulário de Contato-->
 				<form action="#" method="submit" id="formulario">
-					<label for="nome">Nome: </label>
+					<label for="name">Nome: </label>
 					<input
-						id="nome"
+						id="name"
 						type="text"
-						name="nome"
+						name="name"
 						placeholder="Digite seu nome"
-						required
 					/>
 					<span id="txtNome"></span>
 
 					<label for="email">Email: </label>
 					<input
 						id="email"
-						type="email"
+						type="text"
 						name="email"
 						placeholder="Digite seu email"
-						required
 					/>
 					<span id="txtEmail"></span>
 
@@ -73,7 +73,6 @@
 						type="text"
 						name="subject"
 						placeholder="Digite o título da mensagem"
-						required
 					/>
 					<span id="txtSubject"></span>
 
@@ -82,9 +81,7 @@
 						id="message"
 						name="message"
 						placeholder="Digite sua mensagem"
-						required
-					>
-					</textarea>
+					></textarea>
 
 					<button type="submit">Enviar</button>
 				</form>
@@ -135,5 +132,10 @@
 
 			<h3>Feito com 🧡 por Daniele Silveira - 2025</h3>
 		</footer>
+		<!--  Link para a Folha de Estilos CSS -->
+		<link rel="stylesheet" href="./assets/css/styles.css">
+
+		<!-- Script JavaScript -->
+		<script src="./assets/js/script.js"></script>
 	</body>
 </html>
